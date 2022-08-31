@@ -1,0 +1,136 @@
+:root{
+    --overpass: 'Overpass', sans-serif;
+    --ubuntu: 'Ubuntu', sans-serif;
+}
+
+/*Mobile design*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+body{
+    background: white;
+    text-align: center;
+    z-index: 2;
+}
+header{
+    background-image: linear-gradient(to bottom right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    border-radius: 0px 0px 0px 90px;
+}
+.circles{
+    background-image: url('/images/bg-pattern-intro.svg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: auto,contain;    
+    
+}
+
+.page_heading{
+    padding-bottom: 140px;
+
+}
+.page_heading h3{
+    font-family: var(--overpass);
+    font-weight: 600;
+    color: white;
+    font-size: 32px;
+    padding: 0px 10px;
+}
+.page_heading h5{
+    margin-top: 12px;
+    font-family: var(--overpass);
+    font-weight: 100;
+    color: white;
+    padding: 0px 50px;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+.button_start{
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+    font-family: var(--ubuntu);
+    font-weight: 600;
+    padding: 12px 15px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.button_learn{
+    background-color: transparent;
+    color: white;
+    font-family: var(--ubuntu);
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white
+    font-size: 15px;
+}
+nav{
+    padding: 50px 15px;
+    overflow: hidden;
+}
+nav img{
+    width: 70px;
+}
+#links{
+    display: none;
+    background: white;
+    margin-top: 70px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+#links a{
+    color: hsl(240, 10%, 16%);
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+   
+}
+nav a.menu_icon{
+  display: block;
+  float: right; 
+}
+.logo{
+    float: left;
+}
+li{
+    list-style: none;
+    padding: 20px 20px;
+}
+#product{
+    display: none;
+}
+
+#company{
+    display: none;
+}
+#connect{
+    display: none;
+}
+.arrow{
+    width: 15px;
+}
+hr{
+    width: 87%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: hsl(240, 2%, 79%);
+}
+.submenu{
+    background: hsl(240, 2%, 79%);
+    text-align: center;
+    position: relative;
+    right: 40px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    
+}
+#productarrow
+{
+    position: relative;
+    right: 10px;
+}

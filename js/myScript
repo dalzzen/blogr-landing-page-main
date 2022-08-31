@@ -1,0 +1,32 @@
+  function display() {
+        var x = document.getElementById("links");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+    }
+    function subMenuProduct() {
+      var x = document.getElementById("product");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+  }
+  function subMenuCompany() {
+    var x = document.getElementById("company");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+}
+function subMenuConnect() {
+  var x = document.getElementById("connect");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
