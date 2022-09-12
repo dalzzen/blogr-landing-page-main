@@ -18,7 +18,7 @@ header{
     border-radius: 0px 0px 0px 90px;
 }
 .circles{
-    background-image: url('/images/bg-pattern-intro.svg');
+    background-image: url('../images/bg-pattern-intro.svg');
     background-repeat: no-repeat;
     background-position:center;
     background-size: auto,contain;    
@@ -205,7 +205,7 @@ p{
     border-radius: 0px 90px 0px 90px;
     position: relative;
     z-index:-1;
-    background-image: url("/images/bg-pattern-circles.svg");
+    background-image: url("../images/bg-pattern-circles.svg");
     background-size: 500px;
     background-repeat: no-repeat;
     background-position-y: bottom 200px;
