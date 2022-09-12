@@ -1,12 +1,12 @@
 function display() {
-  document.getElementById("hamburguerlogo").src="/images/icon-hamburger.svg";
+  document.getElementById("hamburguerlogo").src="images/icon-hamburger.svg";
   var x = document.getElementById("links");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
     x.style.display = "block";
-    if (document.getElementById("hamburguerlogo").src="/images/icon-hamburger.svg") {
-      document.getElementById("hamburguerlogo").src="/images/icon-close.svg";
+    if (document.getElementById("hamburguerlogo").src="images/icon-hamburger.svg") {
+      document.getElementById("hamburguerlogo").src="images/icon-close.svg";
     } 
       
   }
