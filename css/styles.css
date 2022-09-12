@@ -84,11 +84,12 @@ nav img{
     border-radius: 10px;
 }
 #links a{
-    color: hsl(240, 10%, 16%);
+    color: hsl(207, 13%, 34%);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     display: block;
-   
+    font-family: var(--ubuntu);
+    font-weight: 700;
 }
 nav a.menu_icon{
   display: block;
@@ -121,16 +122,141 @@ hr{
     color: hsl(240, 2%, 79%);
 }
 .submenu{
-    background: hsl(240, 2%, 79%);
+    background: hsl(240, 10%, 94%);
     text-align: center;
     position: relative;
     right: 40px;
     padding: 20px 20px;
     border-radius: 10px;
-    
+}
+.submenu a{
+    opacity: 0.7;
 }
 #productarrow
 {
     position: relative;
     right: 10px;
+}
+#hamburguerlogo{
+    width: auto;
+}
+#companyarrow{
+    position: relative;
+    right: 10px;
+}
+#connectarrow{
+    position: relative;
+    right: 10px;
+}
+#login{
+    position: relative;
+    right: 20px;
+}
+#signup{
+    position: relative;
+    right: 20px;
+    background-image:linear-gradient(to bottom right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    color: white;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 40px;
+    border-style: none;
+    font-size: 15px;
+}
+#editormobile{
+    width: 90vw;
+    height: auto;    
+}
+#designedfuture{
+    margin-top: 80px;
+}
+h4{
+    font-family: var(--ubuntu);
+    font-size: 30px;
+    font-weight: 500;
+    color: hsl(237, 17%, 21%);
+    margin-bottom: 10px;
+}
+h5{
+    font-family: var(--ubuntu);
+    font-size: 28px;
+    font-weight: 500;
+    color: hsl(237, 17%, 21%);
+    padding: 15px 70px;
+    margin-top: 20px;
+}
+p{
+    font-family: var(--overpass);
+    font-size: 16px;
+    opacity: 0.8;
+    color: hsl(237, 17%, 21%);
+    padding: 0px 40px;
+    line-height: 1.8;
+}
+#phones{
+    width: 100vw;
+    height: auto; 
+    position: relative;
+    top: 200px;
+    z-index: 2;+
+}
+#stateart{
+    background-color: hsl(237, 17%, 21%);
+    border-radius: 0px 90px 0px 90px;
+    position: relative;
+    z-index:-1;
+    background-image: url("/images/bg-pattern-circles.svg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position-y: bottom 200px;
+    background-position-x: center;
+    z-index:1;
+}
+#stateartcontent{
+    width: auto;
+    height: 500px;
+    position: relative;
+    top: 170px;
+}
+#stateartcontent p{
+    color: white;
+    margin-bottom: 50px;
+}
+#stateartcontent h5{
+    color: white;
+}
+#patterncircles{
+    width: 500px;
+    position: absolute;
+    top:100px
+}
+#laptop{
+    width: 100vw;
+    height: auto; 
+    margin-top: 40px;
+}
+footer{
+    margin-top: 70px;
+    background-color: hsla(240, 2%, 8%, 0.959);
+    border-radius: 0px 90px 0px 0px;
+    padding-bottom: 70px;
+}
+footer li{
+    color: white;
+    font-family: var(--ubuntu);
+    font-size: 16px;
+    font-weight: 100;
+   line-height: 0;
+}
+h6{
+    font-size: 17px;
+}
+footer ul{
+    position: relative;
+    right: 25px;
+    list-style: none;
+}
+#footerLogo{
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
